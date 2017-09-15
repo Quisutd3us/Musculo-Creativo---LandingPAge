@@ -45,6 +45,11 @@ header {
     font-size: 1rem;
     font-weight: normal;
     color: #808080; }
+  header #navbarNav ul li a:hover {
+    font-family: 'latoBlack', sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #00a69c; }
 
 #beneficios h2 {
   font-family: 'latoBlack', sans-serif;

@@ -123,6 +123,10 @@ header {
                     @include letraMenu($gris,
                     1rem);
                 }
+
+                a:hover{
+                    @include miH2($verde, 1.2rem );
+                }
             }
         }
     }
