@@ -1,3 +1,30 @@
+@font-face {
+  font-family: 'latoMedium';
+  src: local("lato"), url("../fonts/Lato-Medium.ttf") format("truetype");
+  font-weight: medium;
+  font-style: normal; }
+@font-face {
+  font-family: 'latoBlack';
+  src: local("lato"), url("../fonts/Lato-Black.ttf") format("truetype");
+  font-weight: medium;
+  font-style: normal; }
+@font-face {
+  font-family: 'latoRegular';
+  src: local("lato"), url("../fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: medium;
+  font-style: normal; }
+@font-face {
+  font-family: 'coco';
+  src: local("coco"), url("../fonts/Coco Gothic Bold-trial.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+body {
+  background-color: white;
+  font-size: 16px; }
 
+header {
+  border: solid 2px green; }
+  header #navbarNav {
+    border: solid 2px red; }
 
 /*# sourceMappingURL=estilos.css.map */

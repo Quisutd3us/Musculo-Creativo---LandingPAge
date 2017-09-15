@@ -1,0 +1,94 @@
+// creando colores
+
+$azul :#0096d5;
+$verde:#00a69c;
+$gris:#808080;
+
+// helpers
+@mixin bordes($color) {
+    border: solid 2px $color;
+}
+
+// importando fuente LatoMedium
+@font-face {
+    font-family:'latoMedium';
+    src: local('lato'), url('../fonts/Lato-Medium.ttf') format('truetype');
+    font-weight:medium;
+    font-style: normal;
+}
+// importando fuente LatoBlack
+@font-face {
+    font-family:'latoBlack';
+    src: local('lato'), url('../fonts/Lato-Black.ttf') format('truetype');
+    font-weight:medium;
+    font-style: normal;
+}
+// importando fuente LatoRegular
+@font-face {
+    font-family:'latoRegular';
+    src: local('lato'), url('../fonts/Lato-Regular.ttf') format('truetype');
+    font-weight:medium;
+    font-style: normal;
+}
+
+// importando fuente CocoGhotic
+@font-face {
+    font-family:'coco';
+    src: local('coco'), url('../fonts/Coco Gothic Bold-trial.ttf') format('truetype');
+    font-weight:bold;
+    font-style: normal;
+}
+
+// Creando Mixins de Fuentes
+
+@mixin letraMenu($miColor, $tamano) {
+    font: {
+        family: 'latoMedium', sans-serif;
+        size: $tamano;
+        weight: normal;
+    }
+    color: $miColor;
+}
+
+@mixin miH1($miColor, $tamano) {
+    font: {
+        family:'coco', sans-serif;
+        size: $tamano;
+        weight: bolder;
+    }
+    color: $miColor;
+}
+
+@mixin miH2($miColor, $tamano) {
+    font: {
+        family:'latoBlack', sans-serif;
+        size: $tamano;
+        weight: normal;
+    }
+    color: $miColor;
+}
+@mixin miH3($miColor, $tamano) {
+    font: {
+        family:'latoRegular', sans-serif;
+        size: $tamano;
+        weight: normal;
+    }
+    color: $miColor;
+}
+
+body{
+    background-color: white;
+    font-size: 16px;
+}
+
+// estilos menu
+
+header{
+    @include bordes(green);
+    #navbarNav{
+        @include bordes(red);
+        
+    }
+}
+
+
