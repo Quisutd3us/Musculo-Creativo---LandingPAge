@@ -133,6 +133,19 @@ header {
       background: -webkit-gradient(linear, left top, right top, from(#0095d5), color-stop(43%, #4aa893), color-stop(62%, #6ab176), to(#6ab176));
       background: linear-gradient(to right, #0095d5 0%, #4aa893 43%, #6ab176 62%, #6ab176 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095d5', endColorstr='#6ab176', GradientType=1); }
+    #beneficios article:first-child .col-12 h1:hover {
+      -webkit-animation-name: animacionTitulos;
+              animation-name: animacionTitulos;
+      -webkit-animation-duration: 500ms;
+              animation-duration: 500ms;
+      -webkit-animation-timing-function: ease-in-out;
+              animation-timing-function: ease-in-out; }
+@-webkit-keyframes animacionTitulos {
+  0% {
+    font-size: 3rem; } }
+@keyframes animacionTitulos {
+  0% {
+    font-size: 3rem; } }
 #beneficios article:nth-child(2) {
   margin-top: 1rem; }
   #beneficios article:nth-child(2) .col-6 {
@@ -265,6 +278,16 @@ header {
         background: -webkit-gradient(linear, left top, right top, from(#0095d5), color-stop(43%, #4aa893), color-stop(62%, #6ab176), to(#6ab176));
         background: linear-gradient(to right, #0095d5 0%, #4aa893 43%, #6ab176 62%, #6ab176 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095d5', endColorstr='#6ab176', GradientType=1); }
+      #modoDeUso article:first-child .col-12 h1:hover {
+        -webkit-animation-name: animacionTitulos;
+                animation-name: animacionTitulos;
+        -webkit-animation-duration: 500ms;
+                animation-duration: 500ms;
+        -webkit-animation-timing-function: ease-in-out;
+                animation-timing-function: ease-in-out; }
+@keyframes animacionTitulos {
+  0% {
+    font-size: 3rem; } }
   #modoDeUso article:nth-child(2) .col-6 {
     font-family: 'latoRegular', sans-serif;
     font-size: 1rem;
@@ -362,6 +385,35 @@ footer {
     footer .col-4 i {
       font-size: 2rem;
       color: white; }
+    footer .col-4 a {
+      -webkit-animation-name: animacionSocial;
+              animation-name: animacionSocial;
+      -webkit-animation-duration: 2000ms;
+              animation-duration: 2000ms;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+              animation-timing-function: ease-in-out; }
+@-webkit-keyframes animacionSocial {
+  0% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1); }
+  50% {
+    -webkit-transform: scale(2, 2);
+            transform: scale(2, 2); }
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1); } }
+@keyframes animacionSocial {
+  0% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1); }
+  50% {
+    -webkit-transform: scale(2, 2);
+            transform: scale(2, 2); }
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1); } }
   footer .row:nth-child(2) .col-4:nth-child(2) {
     display: -webkit-box;
     display: -ms-flexbox;

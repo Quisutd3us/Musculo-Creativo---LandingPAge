@@ -194,6 +194,17 @@ header {
                 background: linear-gradient(to right, rgba(0, 149, 213, 1) 0%, rgba(74, 168, 147, 1) 43%, rgba(106, 177, 118, 1) 62%, rgba(106, 177, 118, 1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095d5', endColorstr='#6ab176', GradientType=1);
             }
+            h1:hover {
+                animation-name: animacionTitulos;
+                animation-duration: 500ms;
+                animation-timing-function: ease-in-out;
+            } // animaciones header
+            @keyframes animacionTitulos {
+                0% {
+                    font-size: 3rem;
+                }
+                100% {}
+            }
         }
     }
     article:nth-child(2) {
@@ -300,6 +311,17 @@ header {
                 background: linear-gradient(to right, rgba(0, 149, 213, 1) 0%, rgba(74, 168, 147, 1) 43%, rgba(106, 177, 118, 1) 62%, rgba(106, 177, 118, 1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095d5', endColorstr='#6ab176', GradientType=1);
             }
+            h1:hover {
+                animation-name: animacionTitulos;
+                animation-duration: 500ms;
+                animation-timing-function: ease-in-out;
+            } // animaciones header
+            @keyframes animacionTitulos {
+                0% {
+                    font-size: 3rem;
+                }
+                100% {}
+            }
         }
     }
     article:nth-child(2) {
@@ -387,6 +409,23 @@ footer {
         i {
             font-size: 2rem;
             color: white;
+        }
+        a {
+            animation-name: animacionSocial;
+            animation-duration: 2000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        } // animaciones header
+        @keyframes animacionSocial {
+            0% {
+                transform: scale(1, 1);
+            }
+            50% {
+                transform: scale(2, 2);
+            }
+            100% {
+                transform: scale(1, 1);
+            }
         }
     }
     .row:nth-child(2) {
