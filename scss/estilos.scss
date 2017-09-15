@@ -404,11 +404,12 @@ footer {
     }
     .col-4 {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         i {
             font-size: 2rem;
             color: white;
+            
         }
         a {
             animation-name: animacionSocial;
@@ -421,7 +422,7 @@ footer {
                 transform: scale(1, 1);
             }
             50% {
-                transform: scale(2, 2);
+                transform: scale(1.5, 1.5);
             }
             100% {
                 transform: scale(1, 1);

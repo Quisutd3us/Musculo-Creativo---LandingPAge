@@ -376,9 +376,8 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
@@ -399,8 +398,8 @@ footer {
     -webkit-transform: scale(1, 1);
             transform: scale(1, 1); }
   50% {
-    -webkit-transform: scale(2, 2);
-            transform: scale(2, 2); }
+    -webkit-transform: scale(1.5, 1.5);
+            transform: scale(1.5, 1.5); }
   100% {
     -webkit-transform: scale(1, 1);
             transform: scale(1, 1); } }
@@ -409,8 +408,8 @@ footer {
     -webkit-transform: scale(1, 1);
             transform: scale(1, 1); }
   50% {
-    -webkit-transform: scale(2, 2);
-            transform: scale(2, 2); }
+    -webkit-transform: scale(1.5, 1.5);
+            transform: scale(1.5, 1.5); }
   100% {
     -webkit-transform: scale(1, 1);
             transform: scale(1, 1); } }
