@@ -32,9 +32,9 @@ li {
   padding: 0; }
 
 #gradiente {
-  width: 1300px;
-  height: 10rem;
-  background-color: red; }
+  width: 100%;
+  background-color: #00a69c;
+  opacity: 0.5; }
 
 header {
   background: url("../images/img_Header.png") no-repeat right bottom;
