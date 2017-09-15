@@ -37,9 +37,16 @@ li {
   opacity: 0.5; }
 
 header {
-  background: url("../images/img_Header.png") no-repeat right bottom;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: url("../images/img_Header.png") no-repeat bottom center;
   background-size: cover;
-  height: 100vh; }
+  height: 110vh; }
   header #navbarNav ul li a {
     font-family: 'latoMedium', sans-serif;
     font-size: 1rem;
@@ -50,6 +57,24 @@ header {
     font-size: 1.2rem;
     font-weight: normal;
     color: #00a69c; }
+  header #bannerHeader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 29rem; }
+    header #bannerHeader .col-5 h2 {
+      font-family: 'latoBlack', sans-serif;
+      font-size: 1.2rem;
+      font-weight: normal;
+      color: white;
+      text-align: left; }
+    header #bannerHeader .col-5 p {
+      font-family: 'latoRegular', sans-serif;
+      font-size: 1.2rem;
+      font-weight: normal;
+      color: white;
+      margin-top: -0.5rem;
+      text-align: left; }
 
 #beneficios h2 {
   font-family: 'latoBlack', sans-serif;

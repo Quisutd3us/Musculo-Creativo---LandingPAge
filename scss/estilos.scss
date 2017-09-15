@@ -113,9 +113,11 @@ li{
 
 // estilos menu
 header {
-    background: url('../images/img_Header.png') no-repeat right bottom;
+    display: flex;
+    flex-direction: column;
+    background: url('../images/img_Header.png') no-repeat bottom center;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     #navbarNav {
         ul {
             li {
@@ -129,6 +131,26 @@ header {
                 }
             }
         }
+    }
+
+    #bannerHeader{
+        display: flex;
+        margin-top: 29rem;
+        
+        .col-5{
+            h2{
+                @include miH2(white, 1.2rem);
+                text-align: left;
+            }
+            p{
+                @include mip(white,1.2rem );
+                margin-top: -0.5rem;
+                text-align: left;
+            }
+            
+        }
+        
+        
     }
 }
 
