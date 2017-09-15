@@ -53,10 +53,36 @@ header {
     font-weight: normal;
     color: #808080; }
   header #navbarNav ul li a:hover {
-    font-family: 'latoBlack', sans-serif;
-    font-size: 1.2rem;
+    -webkit-animation-name: animacionMenu;
+            animation-name: animacionMenu;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-direction: alternate-reverse;
+            animation-direction: alternate-reverse;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out; }
+@-webkit-keyframes animacionMenu {
+  from {
+    font-family: 'latoMedium', sans-serif;
+    font-size: 1rem;
     font-weight: normal;
-    color: #00a69c; }
+    color: #808080; }
+  to {
+    font-family: 'latoBlack', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #00a69c; } }
+@keyframes animacionMenu {
+  from {
+    font-family: 'latoMedium', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #808080; }
+  to {
+    font-family: 'latoBlack', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #00a69c; } }
   header #bannerHeader {
     display: -webkit-box;
     display: -ms-flexbox;

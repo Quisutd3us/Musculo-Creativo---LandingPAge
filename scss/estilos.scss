@@ -89,23 +89,25 @@ $tamano) {
     }
     color: $miColor;
 }
+
 // estilos generales
 body {
     background-color: white;
     font-size: 16px;
 }
 
-ul{
+ul {
     list-style: none;
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-li{
-    margin: 0; padding: 0;
-    
+li {
+    margin: 0;
+    padding: 0;
 }
 
-#gradiente{
+#gradiente {
     width: 100%;
     background-color: $verde;
     opacity: 0.5;
@@ -125,32 +127,41 @@ header {
                     @include letraMenu($gris,
                     1rem);
                 }
-
-                a:hover{
-                    @include miH2($verde, 1.2rem );
+                a:hover {
+                    animation-name: animacionMenu;
+                    animation-duration: 1.5s;
+                    animation-direction: alternate-reverse;
+                    animation-timing-function: ease-in-out;
                 }
+            }
+        } // animaciones header
+        @keyframes animacionMenu {
+            from {
+                @include letraMenu($gris,
+                1rem);
+            }
+            to {
+                @include miH2($verde,
+                2rem);
             }
         }
     }
-
-    #bannerHeader{
+    #bannerHeader {
         display: flex;
         margin-top: 29rem;
-        
-        .col-5{
-            h2{
-                @include miH2(white, 1.2rem);
+        .col-5 {
+            h2 {
+                @include miH2(white,
+                1.2rem);
                 text-align: left;
             }
-            p{
-                @include mip(white,1.2rem );
+            p {
+                @include mip(white,
+                1.2rem);
                 margin-top: -0.5rem;
                 text-align: left;
             }
-            
         }
-        
-        
     }
 }
 
@@ -291,105 +302,104 @@ header {
             }
         }
     }
-    article:nth-child(2){
-        .col-6{
-            @include mip($gris,1rem );
+    article:nth-child(2) {
+        .col-6 {
+            @include mip($gris,
+            1rem);
             text-align: center;
-            span{
+            span {
                 font-style: bold;
             }
-            
         }
     }
-    article:nth-child(3){
-        .col-8{
+    article:nth-child(3) {
+        .col-8 {
             display: flex;
             justify-content: center;
-            img{
+            img {
                 margin: 2rem 0rem 2rem 0rem;
             }
         }
     }
-    article:nth-child(4){
-        .col-2{
-            @include mip($gris,1rem );
+    article:nth-child(4) {
+        .col-2 {
+            @include mip($gris,
+            1rem);
             margin-top: 1rem;
-            p{
+            p {
                 font-weight: bolder;
                 text-align: center;
             }
         }
     }
-    
 }
+
 // bannerModo de uso diario
-#bannerUsoDiario{
+#bannerUsoDiario {
     margin-top: 1rem;
-    .col-5{
+    .col-5 {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        h2{
-            @include miH2($verde, 2rem );
+        h2 {
+            @include miH2($verde,
+            2rem);
         }
-        h1{
-            @include miH1($verde, 3rem );
+        h1 {
+            @include miH1($verde,
+            3rem);
             margin-top: -0.5rem;
-            
         }
     }
-    
- }
+}
 
 //  Inicia Footer
-footer{
+footer {
     margin-top: -5rem;
     padding-top: 3rem;
-    background: url('../images/img_Footer.png'); 
-    
-    .col-2:nth-child(2){
+    background: url('../images/img_Footer.png');
+    .col-2:nth-child(2) {
         ul {
-            li{
-                @include mip(white,0.8rem );
+            li {
+                @include mip(white,
+                0.8rem);
                 margin-bottom: 0.5rem;
             }
-            
         }
-    }   
-    .col-2:nth-child(3){
+    }
+    .col-2:nth-child(3) {
         display: flex;
         align-items: center;
-        h1{
-            @include miH1(white, 2rem );
+        h1 {
+            @include miH1(white,
+            2rem);
         }
-    }   
-    .col-2:nth-child(4){
+    }
+    .col-2:nth-child(4) {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-    }   
-    .col-4{
+    }
+    .col-4 {
         display: flex;
         justify-content: center;
         align-items: center;
-        i{
+        i {
             font-size: 2rem;
             color: white;
         }
-    } 
-    .row:nth-child(2){
-        .col-4:nth-child(2){
+    }
+    .row:nth-child(2) {
+        .col-4:nth-child(2) {
             display: flex;
             justify-content: center;
             border-top: solid 2px white;
             text-align: center;
-            p{
-                
-                @include mip(white, 1rem);
+            p {
+                @include mip(white,
+                1rem);
                 margin: 2rem 0rem 2rem 0rem;
-                
             }
         }
-    }  
+    }
 }
-
