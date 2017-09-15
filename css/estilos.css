@@ -22,9 +22,304 @@ body {
   background-color: white;
   font-size: 16px; }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+li {
+  margin: 0;
+  padding: 0; }
+
+#gradiente {
+  width: 1300px;
+  height: 10rem;
+  background-color: red; }
+
 header {
-  border: solid 2px green; }
-  header #navbarNav {
-    border: solid 2px red; }
+  background: url("../images/img_Header.png") no-repeat right bottom;
+  background-size: cover;
+  height: 100vh; }
+  header #navbarNav ul li a {
+    font-family: 'latoMedium', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #808080; }
+
+#beneficios h2 {
+  font-family: 'latoBlack', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #00a69c; }
+#beneficios h3 {
+  font-family: 'latoRegular', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #00a69c; }
+#beneficios article:first-child {
+  margin-top: 1rem; }
+  #beneficios article:first-child .col-12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    #beneficios article:first-child .col-12 h1 {
+      font-family: 'coco', sans-serif;
+      font-size: 1.75rem;
+      font-weight: bolder;
+      color: white;
+      padding: 0.5rem;
+      border-radius: 4px;
+      background: #0095d5;
+      background: -webkit-gradient(left top, right top, color-stop(0%, #0095d5), color-stop(43%, #4aa893), color-stop(62%, #6ab176), color-stop(100%, #6ab176));
+      background: -webkit-gradient(linear, left top, right top, from(#0095d5), color-stop(43%, #4aa893), color-stop(62%, #6ab176), to(#6ab176));
+      background: linear-gradient(to right, #0095d5 0%, #4aa893 43%, #6ab176 62%, #6ab176 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095d5', endColorstr='#6ab176', GradientType=1); }
+#beneficios article:nth-child(2) {
+  margin-top: 1rem; }
+  #beneficios article:nth-child(2) .col-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    #beneficios article:nth-child(2) .col-6 div {
+      margin-left: 1rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+#beneficios article:nth-child(3) {
+  margin-top: 1rem; }
+  #beneficios article:nth-child(3) .col-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    #beneficios article:nth-child(3) .col-6 div {
+      margin-right: 1rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+#beneficios article:nth-child(4) {
+  margin-top: 1rem; }
+  #beneficios article:nth-child(4) .col-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    #beneficios article:nth-child(4) .col-6 div {
+      margin-left: 1rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+#beneficios article:nth-child(5) {
+  margin-top: 1rem; }
+  #beneficios article:nth-child(5) .col-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    #beneficios article:nth-child(5) .col-6 div {
+      margin-right: 1rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+#beneficios #bannerCalendula {
+  margin-top: -7rem; }
+#beneficios article:nth-child(7) {
+  margin-top: 1rem; }
+  #beneficios article:nth-child(7) div p {
+    font-family: 'latoRegular', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #808080; }
+#beneficios #bannerEnfermedades article .col-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  #beneficios #bannerEnfermedades article .col-6 p {
+    font-family: 'latoRegular', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #808080;
+    margin-top: 2rem;
+    text-align: center; }
+
+#modoDeUso {
+  margin-top: 1rem;
+  background: url("../images/img_bannerModoUso.png") no-repeat center center;
+  background-size: cover;
+  height: 80vh; }
+  #modoDeUso article:first-child {
+    padding-top: 2rem; }
+    #modoDeUso article:first-child .col-12 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      #modoDeUso article:first-child .col-12 h1 {
+        font-family: 'coco', sans-serif;
+        font-size: 1.75rem;
+        font-weight: bolder;
+        color: white;
+        padding: 0.5rem;
+        border-radius: 4px;
+        background: #0095d5;
+        background: -webkit-gradient(left top, right top, color-stop(0%, #0095d5), color-stop(43%, #4aa893), color-stop(62%, #6ab176), color-stop(100%, #6ab176));
+        background: -webkit-gradient(linear, left top, right top, from(#0095d5), color-stop(43%, #4aa893), color-stop(62%, #6ab176), to(#6ab176));
+        background: linear-gradient(to right, #0095d5 0%, #4aa893 43%, #6ab176 62%, #6ab176 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095d5', endColorstr='#6ab176', GradientType=1); }
+  #modoDeUso article:nth-child(2) .col-6 {
+    font-family: 'latoRegular', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #808080;
+    text-align: center; }
+    #modoDeUso article:nth-child(2) .col-6 span {
+      font-style: bold; }
+  #modoDeUso article:nth-child(3) .col-8 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    #modoDeUso article:nth-child(3) .col-8 img {
+      margin: 2rem 0rem 2rem 0rem; }
+  #modoDeUso article:nth-child(4) .col-2 {
+    font-family: 'latoRegular', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #808080;
+    margin-top: 1rem; }
+    #modoDeUso article:nth-child(4) .col-2 p {
+      font-weight: bolder;
+      text-align: center; }
+
+#bannerUsoDiario {
+  margin-top: 1rem; }
+  #bannerUsoDiario .col-5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    #bannerUsoDiario .col-5 h2 {
+      font-family: 'latoBlack', sans-serif;
+      font-size: 2rem;
+      font-weight: normal;
+      color: #00a69c; }
+    #bannerUsoDiario .col-5 h1 {
+      font-family: 'coco', sans-serif;
+      font-size: 3rem;
+      font-weight: bolder;
+      color: #00a69c;
+      margin-top: -0.5rem; }
+
+footer {
+  margin-top: -5rem;
+  padding-top: 3rem;
+  background: url("../images/img_Footer.png"); }
+  footer .col-2:nth-child(2) ul li {
+    font-family: 'latoRegular', sans-serif;
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 0.5rem; }
+  footer .col-2:nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    footer .col-2:nth-child(3) h1 {
+      font-family: 'coco', sans-serif;
+      font-size: 2rem;
+      font-weight: bolder;
+      color: white; }
+  footer .col-2:nth-child(4) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  footer .col-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    footer .col-4 i {
+      font-size: 2rem;
+      color: white; }
+  footer .row:nth-child(2) .col-4:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-top: solid 2px white;
+    text-align: center; }
+    footer .row:nth-child(2) .col-4:nth-child(2) p {
+      font-family: 'latoRegular', sans-serif;
+      font-size: 1rem;
+      font-weight: normal;
+      color: white;
+      margin: 2rem 0rem 2rem 0rem; }
 
 /*# sourceMappingURL=estilos.css.map */
