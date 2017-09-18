@@ -409,8 +409,8 @@ footer {
               animation-name: animacionSocial;
       -webkit-animation-duration: 2000ms;
               animation-duration: 2000ms;
-      -webkit-animation-iteration-count: infinite;
-              animation-iteration-count: infinite;
+      -webkit-animation-delay: 5s;
+              animation-delay: 5s;
       -webkit-animation-timing-function: ease-in;
               animation-timing-function: ease-in; }
   footer .row:nth-child(2) .col-4:nth-child(2) {
