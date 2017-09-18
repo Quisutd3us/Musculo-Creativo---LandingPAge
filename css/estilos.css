@@ -384,15 +384,6 @@ footer {
     footer .col-4 i {
       font-size: 2rem;
       color: white; }
-    footer .col-4 a {
-      -webkit-animation-name: animacionSocial;
-              animation-name: animacionSocial;
-      -webkit-animation-duration: 2000ms;
-              animation-duration: 2000ms;
-      -webkit-animation-iteration-count: infinite;
-              animation-iteration-count: infinite;
-      -webkit-animation-timing-function: ease-in-out;
-              animation-timing-function: ease-in-out; }
 @-webkit-keyframes animacionSocial {
   0% {
     -webkit-transform: scale(1, 1);
@@ -413,6 +404,15 @@ footer {
   100% {
     -webkit-transform: scale(1, 1);
             transform: scale(1, 1); } }
+    footer .col-4 a:hover {
+      -webkit-animation-name: animacionSocial;
+              animation-name: animacionSocial;
+      -webkit-animation-duration: 2000ms;
+              animation-duration: 2000ms;
+      -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in; }
   footer .row:nth-child(2) .col-4:nth-child(2) {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -428,5 +428,12 @@ footer {
       font-weight: normal;
       color: white;
       margin: 2rem 0rem 2rem 0rem; }
+
+#botonArriba {
+  opacity: 0;
+  position: fixed;
+  bottom: 3rem; }
+  #botonArriba i {
+    color: #0096d5; }
 
 /*# sourceMappingURL=estilos.css.map */
